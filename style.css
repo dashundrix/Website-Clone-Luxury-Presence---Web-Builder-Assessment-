@@ -269,12 +269,13 @@ header {
 }
 
 .listing-section {
-  background: url("https://surl.li/duqagq") center/cover no-repeat;
+  background: url("images/000.webp") center/cover no-repeat;
   padding: 4rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  height: 70vh;
 }
 
 .listing-content {
