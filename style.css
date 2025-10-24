@@ -468,8 +468,24 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+  }
+ 
+  header img {
+    max-width: 140px; 
+    height: auto;
+  }
   .menu-toggle {
-    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
+    z-index: 999;
+    position: relative;
   }
 
   .nav-links {
@@ -490,7 +506,7 @@ button:hover {
   .nav-links.active {
     display: flex;
   }
-    .section {
+  .section {
     flex-direction: column;
     text-align: center;
   }
@@ -522,5 +538,43 @@ button:hover {
 
   .company-column p, .company-column h2 {
     justify-content: center;
+  }
+
+  .partners {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .service-section {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .service-card {
+    width: 100%;
+    max-width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .listing-section {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+  
+  .black-section {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .company-black-section h1,
+  .company-black-section h2 {
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
